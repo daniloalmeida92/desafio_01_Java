@@ -98,7 +98,7 @@ public class Main {
 
         System.out.printf("Imposto bruto total: %.2f%n" , impostoBrutototal);
 
-        if (maxDedutivel > impostoSalario){
+        if (gastosDedutiveis > impostoSalario){
             impostoDevido = impostoBrutototal - maxDedutivel;
             System.out.printf("Abatimento: %.2f%n" , maxDedutivel);
         } else {
